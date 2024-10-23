@@ -1,3 +1,6 @@
+
+#Loreyn Reid
+
 def pass_to_encode(original):
     res = ""
     for i in original:
