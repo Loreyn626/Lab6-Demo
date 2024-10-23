@@ -1,5 +1,6 @@
 
 #Loreyn Reid
+
 def pass_to_encode(original):
     res = ""
     for i in original:
@@ -8,6 +9,7 @@ def pass_to_encode(original):
         if i > 9:
             i -= 10
         res += str(i)
+
     return res
 
 def decode(encoded_pass):
@@ -23,9 +25,12 @@ def decode(encoded_pass):
         else:
             new_digit = (int(digit) - 3)
         decoded_pass += str(new_digit)
+
     return decoded_pass
 
+
 def main():
+
 
     while True:
         print("Menu")
@@ -48,6 +53,7 @@ def main():
 
         if menu_option == 3:
             break
+
 
 if __name__ == "__main__":
     main()
